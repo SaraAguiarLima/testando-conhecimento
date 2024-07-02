@@ -3,8 +3,15 @@
 
 main{
     font-family: 'Courier New', Courier, monospace;
+    display: flexbox;
+   
+}
+table {
+    width: 300px;
+    height: 200px;
 }
 caption{
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding: 10px;
     border: 1px solid black;
@@ -14,6 +21,45 @@ table{
     border-collapse: collapse;
 }
 td{
+
     border: 1px solid black;
     padding: 18px;
+}
+.vazio {
+    
+}
+.inicio {
+    background-color: grey;
+}
+.cabeçalho {
+    background-color: rgb(0, 81, 255);
+    font-weight: 900;
+    
+
+}
+.coluna {
+    background-color:rgb(0, 81, 255);
+    font-size: medium;
+    font-weight: 900;
+}
+.vermelho {
+    background-color: red;
+}
+.laranja {
+    background-color: orange;
+}
+.amarelo {
+    background-color: yellow;
+}
+.verde {
+    background-color: green;
+}
+.azul {
+    background-color: blue;
+}
+.violeta {
+    background-color: violet;
+}
+.branco {
+    background-color: white;
 }

@@ -1,26 +1,34 @@
 
 @charset "UTF-8";
 
-main{
-    font-family: 'Courier New', Courier, monospace;
-    display: flexbox;
-   
-}
-table {
-    width: 300px;
-    height: 200px;
-}
-caption{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 10px;
-    border: 1px solid black;
+body {
+    font-family: cursive;
 }
 table{
-    width: 600px;
+   
     border-collapse: collapse;
+    
 }
-td{
+caption{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    border: 1px solid rgb(236, 232, 232);
+}
+tr:nth-child(even) {
+    background-color: rgb(228, 228, 228);
+}
+div#container {
+  overflow-x: auto;
+ 
+}
+.coluna {
+    background-color:rgb(0, 81, 255);
+    font-size: medium;
+    font-weight: 900;
+}
+th, td{
 
     border: 1px solid black;
     padding: 18px;
@@ -34,32 +42,26 @@ td{
 .cabeçalho {
     background-color: rgb(0, 81, 255);
     font-weight: 900;
-    
-
-}
-.coluna {
-    background-color:rgb(0, 81, 255);
-    font-size: medium;
-    font-weight: 900;
-}
+    }
 .vermelho {
-    background-color: red;
+    background-color:#F03C5A;
 }
 .laranja {
-    background-color: orange;
+    background-color: #E9A95D;
 }
 .amarelo {
-    background-color: yellow;
+    background-color: #F9E35D;
 }
 .verde {
-    background-color: green;
+    background-color: #5DC04E;
 }
 .azul {
-    background-color: blue;
+    background-color: #46A5D2;
 }
-.violeta {
-    background-color: violet;
+.índigo {
+    background-color: #6E78FF;
 }
-.branco {
-    background-color: white;
+.Violeta
+ {
+    background-color: #DC66D8;
 }

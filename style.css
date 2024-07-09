@@ -12,14 +12,27 @@ body {
     font-family: "Margarine", sans-serif;
     background-color: lightgray;
     } 
-
+header{
+    margin-left: 55px;
+}
 main{
     background-color: white;
-    padding: 17px;
-    margin: 15px;
-    
-    width: 1060px;
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 20px;
+    margin: auto; /*Centraliza conteúdo*/
+    box-shadow: 0px 1px 5px rgb(121, 116, 116);
+    min-width: 1079px;
+    max-width: 320px;
 
+}
+main > p {
+    background-color: #F03C5A;
+    min-height: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+   
 }
 
 table{
@@ -32,9 +45,10 @@ caption{
     font-weight: 100;
     padding: 30px;
     border: 1px solid rgb(236, 232, 232);
+    min-width: 130px;
 }
 tr:nth-child(even) {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(194, 191, 191);
 }
 div#container {
   overflow-x: auto;
@@ -87,4 +101,11 @@ th, td{
 .Violeta
  {
     background-color: #DC66D8;
+}
+footer{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
 }

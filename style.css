@@ -3,15 +3,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
 
-main{
-    
-    
-}
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     font-family: "Margarine", sans-serif;
-   
+    background-color: lightgray;
     } 
+
+main{
+    background-color: white;
+    padding: 17px;
+    margin: 15px;
+    
+    width: 1060px;
+
+}
 
 table{
     border-collapse: collapse;
